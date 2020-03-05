@@ -190,3 +190,19 @@ border-right: 2px solid red;
     border-radius: 20px;
     border: 2px solid lightgray;
 }
+
+/**/
+.course-tab {
+     display: flex;
+     margin: 5px 20px;
+     font-weight: bold;
+     font-size: 20px;
+}
+
+.course-tab .tab1 {
+    width: 78%;
+}
+
+.course-tab .tab2 {
+    width: 20%;
+}

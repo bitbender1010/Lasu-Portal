@@ -25,36 +25,38 @@
     <div class="bio-text">Bio details</div>
     <div class="bio-container">
         <!--main details-->
-        <div class="box"> <label>Name:</label> <input name="login"/> </div>
-        <div class="box"> <label>Level:</label> <input /> </div>
-        <div class="box"> <label>Matric No:</label> <input /> </div>
+        <div class="box"> <label>Name:</label> <input name="name"/> </div>
+        <div class="box"> <label>Level:</label> <input name="level"/> </div>
+        <div class="box"> <label>Matric No:</label> <input name="matric"/> </div>
     </div>
     
     <!--line-->
     <div class="line"> <!--line--> </div>
     <div class="crs-text"> Course details </div>
     <div class="crs-sub"> Please, selct your course and Input your score accordingly </div>
-
+    <div class="course-tab">
+    <div class="tab1"> Courses</div> <div class="tab2"> Scores </div>
+    </div>
     <!--Course details-->
     <div class="course-container">
         <!--input course-->
         <div class="courses">
             <div class="crs-1"> 
-                <div> <input placeholder="1"/> </div>
-                <div> <input placeholder="2"/> </div>
-                <div> <input placeholder="3"/> </div>
+                <div> <input placeholder="1" name="course1"/> </div>
+                <div> <input placeholder="2" name="course2"/> </div>
+                <div> <input placeholder="3" name="course3"/> </div>
             </div>
             <div class="divider"> </div>
             <div class="crs-2"> 
-                <input placeholder=""/>
-                <input placeholder=""/>
-                <input placeholder=""/>
+                <input placeholder="" name="score1"/>
+                <input placeholder="" name="score2"/>
+                <input placeholder="" name="score3"/>
             </div>
     </div>
     </div>
 
     <!--submit-->
-    <div class="submit"><button>Submit</button></div>
+    <div class="submit" name="submit"><button>Submit</button></div>
     </form>
 
     </div>
