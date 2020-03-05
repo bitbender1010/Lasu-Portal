@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="241" viewBox="0 0 375 241">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-sub-banner);
+      }
+
+      .cls-2 {
+        fill: #ce00ff;
+      }
+
+      .cls-3 {
+        fill: rgba(206,0,255,0.59);
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-sub-banner">
+      <rect width="375" height="241"/>
+    </clipPath>
+  </defs>
+  <g id="sub-banner" class="cls-1">
+    <rect class="cls-4" width="375" height="241"/>
+    <circle id="Ellipse_14" data-name="Ellipse 14" class="cls-2" cx="237.5" cy="237.5" r="237.5" transform="translate(-52 -258)"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" class="cls-2" cx="40" cy="40" r="40" transform="translate(283 137)"/>
+    <circle id="Ellipse_15" data-name="Ellipse 15" class="cls-3" cx="18" cy="18" r="18" transform="translate(8 178)"/>
+  </g>
+</svg>

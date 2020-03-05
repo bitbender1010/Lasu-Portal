@@ -1,0 +1,136 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.lasu {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.main-text {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.tagline {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.mother {
+    min-height: 1000px;
+    width: 500px;
+    border:  1px solid lightgray;
+    margin: 0px auto;
+}
+
+.parent-div {
+    /*background-color: purple;*/
+    padding: 20px 0px;
+    background-image: url(./images/banner2.svg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    background-size: 100%;
+    border: none;
+    margin: 0px auto;
+    position: relative;
+}
+
+/*bio details*/
+.bio-container, .course-container {
+    height: 200px;
+    width: 500px;
+    /*border: 2px solid red;*/
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+.bio-container, label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bio-container, .box {
+    margin: 10px 0px;
+}
+
+/**/
+.line {
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.bio-text {
+    background-color: white;
+    position: relative;
+    top: -20px;
+    left: 15px;
+    width: 100px;
+    /*border: 2px solid red;*/
+    text-align: center;
+}
+
+/*check*/
+.check {
+border-right: 2px solid red;
+}
+
+/*courses*/
+.courses {
+    display: flex;
+}
+
+.divider {
+    border: 1px solid lightgray;
+    margin: 0px 30px;
+}
+
+.courses .crs-1 input {
+    width: 350px;
+    height: 20px;
+    margin: 3px 0px;
+}
+
+.courses .crs-2 input {
+    width: 80px;
+    float: right;
+    height: 20px;
+    margin: 3px 0px;
+}
+
+/*submit*/
+.submit button {
+ background-color: #CE00FF;
+ border: none;
+ outline: none;
+ height: 50px;
+ width: 200px;
+ color: white;
+ font-size: 20px;
+ font-weight: bold;
+ border-radius: 50px;
+ margin: 0px auto;
+ box-shadow: 5px 5px 5px rgb(184, 179, 179);
+}
+
+.submit {
+    height: 50px;
+    width: 200px;
+    margin: 0px auto;
+}
