@@ -53,12 +53,19 @@ body {
 }
 
 /*bio details*/
-.bio-container, .course-container {
+.bio-container {
     height: 200px;
     width: 500px;
     /*border: 2px solid red;*/
     margin: 0px auto;
-    padding: 0px 20px;
+}
+
+.course-container {
+    height: 200px;
+    width: 100%;
+    /*border: 2px solid red;*/
+    margin: 0px auto;
+    border: 2px solid red;
 }
 
 .bio-container, label {
@@ -79,7 +86,17 @@ body {
 .bio-text {
     background-color: white;
     position: relative;
-    top: -20px;
+    top: -10px;
+    left: 15px;
+    width: 80px;
+    /*border: 2px solid red;*/
+    text-align: center;
+}
+
+.crs-text {
+    background-color: white;
+    position: relative;
+    top: -10px;
     left: 15px;
     width: 100px;
     /*border: 2px solid red;*/
@@ -94,24 +111,39 @@ border-right: 2px solid red;
 /*courses*/
 .courses {
     display: flex;
+    width: 100%;
 }
 
 .divider {
     border: 1px solid lightgray;
-    margin: 0px 30px;
+    margin: 0px 20px;
+}
+
+.courses .crs-1 {
+    width: 70%;
+}
+
+.courses .crs-2 {
+    width: 20%;
 }
 
 .courses .crs-1 input {
-    width: 350px;
+    width: 100%;
+    height: 20px;
+    margin: 3px 0px;
+    display: inline-block;
+}
+
+.courses .crs-2 input {
+    width: 100%;
+    float: right;
     height: 20px;
     margin: 3px 0px;
 }
 
-.courses .crs-2 input {
-    width: 80px;
-    float: right;
-    height: 20px;
-    margin: 3px 0px;
+/**/
+.crs-1 div span  {
+    display: inline-block;
 }
 
 /*submit*/
@@ -133,4 +165,16 @@ border-right: 2px solid red;
     height: 50px;
     width: 200px;
     margin: 0px auto;
+}
+
+/**/
+.box {
+    margin: 10px 20px;
+}
+
+.box input {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid lightgray;
 }
